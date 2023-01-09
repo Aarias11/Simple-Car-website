@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display SC', serif;
+    background-color: rgb(247, 235, 231);
+    opacity: .8;
+    position: sticky;
+    top: 0;
+    
+}
+.logo {
+    
+}
+
+.nav-links {
+    display: contents;
+    border: 1px solid burlywood;
+    
+    
+}
+
+.nav-links li {
+    list-style: none;
+    color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+
+.first {
+   
+    border: 1px solid black;
+    width: auto;
+    height: 900px;
+    background-image: url("https://images.unsplash.com/photo-1673082797698-0d03bd275c2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    
+}
+
+h1, h2{
+    
+    /* border: 1px solid gray; */
+    
+    color: rgb(221, 217, 217);
+    width: 35%;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin-left: 30%;
+    color: orangered;
+    text-shadow: 1px 1px 0 black;
+    opacity: .8;
+    transform: translateY(300px);
+
+}
+
+.second {
+    border: 1px solid black;
+    width: auto;
+    height: 900px;
+    
+    background-image: url("https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.third {
+    border: 1px solid black;
+    width: auto;
+    height: 900px;
+   background-image: url("https://images.unsplash.com/photo-1462396881884-de2c07cb95ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80");
+   background-size: cover;
+    background-position: center;
+}
